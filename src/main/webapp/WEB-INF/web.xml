@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>ExpenseTracker</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>SetBudgetServlet</servlet-name>
+        <servlet-class>com.expensetracker.servlet.SetBudgetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetBudgetServlet</servlet-name>
+        <url-pattern>/setBudget</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>DeleteBudgetServlet</servlet-name>
+    <servlet-class>com.expensetracker.servlet.DeleteBudgetServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteBudgetServlet</servlet-name>
+    <url-pattern>/deleteBudget</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>SavingsServlet</servlet-name>
+    <servlet-class>com.expensetracker.servlet.SavingsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SavingsServlet</servlet-name>
+    <url-pattern>/savings</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ReportServlet</servlet-name>
+    <servlet-class>com.expensetracker.servlet.ReportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ReportServlet</servlet-name>
+    <url-pattern>/report</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>CalendarServlet</servlet-name>
+    <servlet-class>com.expensetracker.servlet.CalendarServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CalendarServlet</servlet-name>
+    <url-pattern>/calendar</url-pattern>
+</servlet-mapping>
+    <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.expensetracker.servlet.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
+
+
+    <!-- Other servlet mappings -->
+    
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <context-param>
+        <param-name>databaseURL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/expense_tracker</param-value>
+    </context-param>
+    <context-param>
+        <param-name>databaseUser</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>databasePassword</param-name>
+        <param-value>1234</param-value>
+    </context-param>
+
+</web-app>
