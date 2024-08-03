@@ -1,7 +1,3 @@
-Sure, here's a fun and engaging GitHub README for your project:
-
----
-
 # 💰 Daily Expense Tracker System 📝
 
 Welcome to the **Daily Expense Tracker System**! This project helps you manage your finances better by tracking your income and expenses on a daily basis. Say goodbye to end-of-month money troubles and hello to smart savings! 🚀
