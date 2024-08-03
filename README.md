@@ -8,13 +8,13 @@ Welcome to the **Daily Expense Tracker System**! This project helps you manage y
 
 ## 📋 Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Introduction](##introduction)
+- [Features](##features)
+- [Getting Started](##getting-started)
+- [Usage](##usage)
+- [Contributing](##contributing)
+- [License](##license)
+- [Contact](##contact)
 
 ## 🌟 Introduction
 
