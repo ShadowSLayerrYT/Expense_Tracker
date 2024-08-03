@@ -6,16 +6,6 @@ Sure, here's a fun and engaging GitHub README for your project:
 
 Welcome to the **Daily Expense Tracker System**! This project helps you manage your finances better by tracking your income and expenses on a daily basis. Say goodbye to end-of-month money troubles and hello to smart savings! 🚀
 
-## 📋 Table of Contents
-
-- [Introduction](##introduction)
-- [Features](##features)
-- [Getting Started](##getting-started)
-- [Usage](##usage)
-- [Contributing](##contributing)
-- [License](##license)
-- [Contact](##contact)
-
 ## 🌟 Introduction
 
 Many of us find ourselves broke at the end of the month, often due to untracked and unnecessary expenses. This **Daily Expense Tracker System** helps you keep an eye on your daily spending, ensuring you stay within your budget and save for the future. 🏦
